@@ -32,5 +32,5 @@ void ProvaClasse::setNumerini(int newX , int newY , int newZ) {
 }
 
 std::string ProvaClasse::toString() {
-	return "I numeri sono: " + std::to_string(x) + ", " + std::to_string(y) + ", " + std::to_string(z);
+	return "I numeri sono: " + std::to_string(x) + ", " + std::to_string(y) + " e " + std::to_string(z) + ".";
 }
